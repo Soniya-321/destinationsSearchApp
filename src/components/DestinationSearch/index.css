@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #fff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+}
+.main-heading {
+  font-size: 30px;
+}
+.input-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+.input {
+  border: none;
+  background-color: #f1f5f9;
+  outline: none;
+  margin-left: 8px;
+  font-family: open sans;
+}
+.search-icon {
+  height: 20px;
+  margin: 5px;
+}
+.destinations-container {
+  display: flex;
+  flex-wrap: wrap;
+}
